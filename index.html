@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RPS-Multiplayer</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://www.gstatic.com/firebasejs/5.5.7/firebase.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="player1">
+            <h1>Player One</h1>
+            <img src="assets/image/rock.png" alt="rock">
+            <button id="rock1" type="button" >Rock!</button>
+            <img src="assets/image/paper.png" alt="paper">
+            <button id="paper1" type="button">Paper!</button>
+            <img src="assets/image/scissors.png"  alt="scissors">
+            <button id="scissor1" type="button">Scissors!</button> 
+        </div>
+
+         <div class="player2">
+            <h1>Player Two</h1>
+            <img src="assets/image/rock.png" id="p2Rock" alt="rock">
+            <button type="button">Rock!</button>
+            <img src="assets/image/paper.png" id="p2Paper" alt="paper">
+            <button type="button">Paper!</button>
+            <img src="assets/image/scissors.png" id="p2Scissors" alt="scissors">
+            <button type="button">Scissors!</button>
+         </div>
+         <br>
+         <br>
+         <div class="chatBox">
+             <form>
+                <span>Player</span>
+                 <input type="text" name="player">
+                 <textarea name="chat" rows="25" cols="50"></textarea>
+                 <input type="submit">
+             </form>
+
+         </div>
+        
+    </div>
+    
+
+    <script src="assets/javascript/js.app"></script>
+</body>
+</html>
